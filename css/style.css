@@ -130,11 +130,38 @@
 
 .featured-universities{
   margin-top: 90px;
-  padding-bottom: 180px;
+  /* padding-bottom: 180px; */
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
+.featured-dots{
+  margin-top: 90px;
+  padding-bottom: 50px;
+}
+
+.dots{
+  display: flex;
+  justify-content: center;
+}
+
+.dots li{
+  list-style: none;
+  margin: 10px;
+}
+
+.dot{
+  width: 12px;
+  height: 12px;
+  background: rgba(124, 124, 124, 0.318837);
+  border-radius: 50%;
+}
+
+.active{
+  background-color: #717CFF;
+}
+
 /* /featured */
 
 
@@ -162,11 +189,12 @@
   padding-bottom: 126px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 
 .services-card{
   margin: 10px;
+  margin-right: 20px;
   padding: 47px;
   background: #FFFFFF;
   box-shadow: 0px 0px 77px rgba(0, 0, 0, 0.06);
@@ -262,6 +290,11 @@
 
 
 /* events */
+
+.events-wrap{
+  padding-bottom: 50px;
+}
+
 .events-title{
   padding-top: 90px;
   font-weight: bold;
@@ -282,7 +315,7 @@
 
 .events-cards{
   margin-top: 100px;
-  padding-bottom: 200px;
+  padding-bottom: 50px;
   display: flex;
   justify-content: space-evenly;
 }
@@ -356,6 +389,10 @@
   letter-spacing: 0.444444px;
   color: #373737;
 }
+
+.events-dots{
+  margin-top: 50px;
+}
 /* /events */
 
 
@@ -383,7 +420,6 @@
 }
 
 .countries-cards{
-  padding-bottom: 200px;
   margin-top: 77px;
   display: flex;
   justify-content: space-between;
@@ -402,6 +438,12 @@
   line-height: 27px;
   color: rgba(55, 71, 79, 0.721569);
 }
+
+.countries-dots{
+  margin-top: 60px;
+  padding-bottom: 100px;
+}
+
 /* /countries */
 
 /* testimonials */
@@ -424,7 +466,6 @@
 }
 
 .testimo-cards{
-  padding-bottom: 198px;
   margin-top: 100px;
   display: flex;
   justify-content: space-around;
@@ -433,7 +474,7 @@
 .testimo-card{
   padding: 40px 30px;
   /* background-color: red; */
-  width: 400px;
+  width: 450px;
 }
 
 .testimo-card-header{
@@ -441,9 +482,37 @@ display: flex;
 justify-content: space-around;
 width: 230px;
 }
+
+.testimo-card-header img{
+  width: 62px;
+  margin-right: 5px;
+}
+
 .testimo-card-name{
   margin-bottom: 0px;
 }
+
+.testimo-card-header-text span{
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #37474F;
+  mix-blend-mode: normal;
+  opacity: 0.65;
+}
+
+.testimo-card-p{
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 31px;
+  color: rgba(55, 71, 79, 0.721569);
+}
+
+.testimo-dots{
+  margin-top: 40px;
+  padding-bottom: 70px;
+}
+
 /* /testimonials */
 
 
@@ -480,10 +549,14 @@ footer{
 
 .footer-columns{
   padding-top: 64px;
-  padding-bottom: 45px;
+  padding-bottom: 25px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.column1 .copyright{
+  margin-top: 40px;
 }
 
 .column2 ul, .column3 ul, .column4 ul{
@@ -504,6 +577,12 @@ footer{
 .column4 {
   /* background-color: red; */
   display: flex;
-  align-items: flex-end;
+  margin-top: 100px;
+  justify-content: space-between;
 }
+
+.column4 li{
+  margin: 0 10px;
+}
+
 /* /footer */
